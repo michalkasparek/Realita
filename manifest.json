@@ -10,6 +10,7 @@
     "content_scripts": [
     {
       "matches": ["http://novinky.cz/*", "http://*.novinky.cz/*", "http://idnes.cz/*", "http://*.idnes.cz/*", "http://centrum.cz/*", "http://*.centrum.cz/*", "http://*.ihned.cz/*", "http://ihned.cz/*", "http://penize.cz/*", "http://*.penize.cz/*", "http://ceskenoviny.cz/*", "http://*.ceskenoviny.cz/*", "http://denik.cz/*", "http://*.denik.cz/*", "http://*.finmag.cz/*", "http://finmag.cz/*"],
+      "exclude_matches": ["http://jizdnirady.idnes.cz/*"],
       "js": ["skript.js"],
       "run_at": "document_end"
     }
